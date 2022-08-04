@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-height: 736px;
+    max-width: 414px;
+}
+
+header {
+    background: #C4C4C4;
+    height: 67px;
+    width: 414px;
+    top: 0;
+    position: absolute;
+    border-bottom: 1px solid #000;
+}
+
+
+
+header .fa-hubspot {
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #8B3A20;
+}
+
+header .fa-bell {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #8B3A20;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section p.one {
+    position: absolute;
+    height: 38px;
+    width: 136px;
+    top: 150px;
+    left: 25px;
+    text-align: center;
+}
+
+section p.two {
+    position: absolute;
+    height: 38px;
+    width: 186px;
+    top: 150px;
+    right: 25px;
+    text-align: center;
+}
+
+section p.three {
+    position: absolute;
+    height: 38px;
+    width: 136px;
+    top: 350px;
+    left: 25px;
+    text-align: center;
+}
+
+section p.four {
+    position: absolute;
+    height: 38px;
+    width: 186px;
+    top: 350px;
+    right: 25px;
+    text-align: center;
+}
+
+img.one {
+    position: absolute;
+    top: 280px;
+}
+
+img.two {
+    position: absolute;
+    left: 190px;
+    z-index: -1;
+}
+
+footer {
+    position: absolute;
+    height: 62px;
+    width: 414px;
+    top: 520px;
+    background-color: #C4C4C4;
+}
+
+footer .fa-solid {
+    color: #8B3A20;
+    font-size: 30px;
+}
+
+footer .fa-search {
+    position: absolute;
+    top: 12px;
+    left: 70px;
+}
+
+footer .fa-fire-flame-curved {
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    font-size: 50px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    height: 62px;
+    padding: 8px 20px 0;
+}
+
+footer .fa-star.one {
+    position: absolute;
+    top: 12px;
+    right: 55px;
+}
+
+footer .fa-star.two {
+    position: absolute;
+    top: 12px;
+    right: 105px;
+    font-size: 20px;
+}
+
+footer .fa-star.three {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 20px;
+}

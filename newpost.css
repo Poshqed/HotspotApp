@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-height: 736px;
+    max-width: 414px;
+}
+
+.fa-solid {
+    color: #8B3A20;
+}
+
+.fa-hubspot {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    color: #8B3A20;
+}
+
+section.banner-one {
+    width: 414px;
+    height: 134px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 120px;
+}
+
+section.banner-one h1 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+section.banner-two {
+    width: 414px;
+    height: 134px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 274px;
+}
+
+section.banner-two h1 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+section.banner-three {
+    width: 414px;
+    height: 134px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 428px;
+}
+
+section.banner-three h1 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+section.footer {
+    position: absolute;
+    top: 582px;
+    height: 66px;
+    background-color: #C4C4C4;
+    width: 414px;
+}
+
+section.footer .fa-magnifying-glass {
+    position: absolute;
+    font-size: 30px;
+    top: 15px;
+    left: 80px;
+}
+
+section.footer .fa-plus {
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    right: 80px;
+    border-left: 3px solid #000;
+    padding: 12px 0 0 100px;
+    height: 66px;
+}

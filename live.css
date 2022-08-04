@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    max-height: 736px;
+    max-width: 414px;
+    color: #fff;
+}
+
+header .fa-arrow-left-long {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left: 20px;
+}
+
+header h1 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+header p {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section .fa-star {
+    position: absolute;
+    top: 250px;
+    right: 30px;
+    font-size: 30px;
+    color: #8B3A20;
+}
+
+section .one {
+    position: absolute;
+    top: 285px;
+    right: 23px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section .fa-user-plus {
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    font-size: 35px;
+    color: #8B3A20;
+}
+
+section .fa-eye {
+    position: absolute;
+    top: 430px;
+    right: 25px;
+    font-size: 35px;
+    color: #8B3A20;
+}
+
+section .two {
+    position: absolute;
+    top: 470px;
+    right: 23px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.name {
+    position: absolute;
+    width: 153px;
+    height: 38px;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: bold;
+    top: 590px;
+    left: 30px;
+}
+
+footer {
+    position: absolute;
+    width: 414px;
+    height: 71px;
+    background-color: #c4c4c4;
+    z-index: -1;
+    top: 670px;
+}
+
+footer img {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+footer .fa-video {
+    position: absolute;
+    color: red;
+    font-size: 35px;
+    right: 60px;
+    top: 13px;
+}
+
+footer span {
+    position: absolute;
+    right: 75px;
+    top: 45px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer img.line {
+    position: absolute;
+    left: 210px;
+    top: 0;
+    height: 71px;
+}

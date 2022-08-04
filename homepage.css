@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    max-height: 736px;
+    max-width: 414px;
+}
+
+.fa-solid {
+    color: #8B3A20;
+
+}
+
+.fa-solid:hover {
+    color: #000;
+}
+
+.fa-gear {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left: 15px;
+
+}
+
+.fa-user {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left: 60px;
+}
+
+.fa-camera {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    right: 30px;
+}
+
+section.banner-one {
+    position: absolute;
+    width: 414px;
+    height: 134px;
+    background: #c4c4c4;
+    top: 100px;
+    z-index: -3;
+}
+
+section.banner-one .fa-star {
+    position: absolute;
+    height: 21px;
+    left: 15px;
+    top: 50px;
+    width: 22px;
+}
+
+section.banner-one p {
+    position: absolute;
+    height: 21px;
+    left: 10px;
+    top: 71px;
+    width: 22px;
+}
+
+section.banner-one h1 {
+    position: absolute;
+    height: 38px;
+    left: 130px;
+    top: 50px;
+    width: 145px;
+    color: #000;
+}
+
+section.banner-two {
+    position: absolute;
+    width: 414px;
+    height: 134px;
+    background: #c4c4c4;
+    top: 254px;
+    z-index: -3;
+}
+
+section.banner-two .fa-star {
+    position: absolute;
+    height: 21px;
+    left: 15px;
+    top: 50px;
+    width: 22px;
+}
+
+section.banner-two p {
+    position: absolute;
+    height: 21px;
+    left: 10px;
+    top: 71px;
+    width: 22px;
+}
+
+section.banner-two h1 {
+    position: absolute;
+    height: 38px;
+    left: 130px;
+    top: 50px;
+    width: 145px;
+}
+
+section.banner-three {
+    position: absolute;
+    width: 414px;
+    height: 134px;
+    background: #c4c4c4;
+    top: 408px;
+    z-index: -3;
+}
+
+section.banner-three .fa-star {
+    position: absolute;
+    height: 21px;
+    left: 15px;
+    top: 50px;
+    width: 22px;
+}
+
+section.banner-three p {
+    position: absolute;
+    height: 21px;
+    left: 10px;
+    top: 71px;
+    width: 22px;
+}
+
+section.banner-three h1 {
+    position: absolute;
+    height: 38px;
+    left: 130px;
+    top: 50px;
+    width: 176px;
+}
+
+section.footer {
+    position: fixed;
+    width: 414px;
+    height: 75px;
+    background-color: #c4c4c4;
+    top: 572px;
+}
+
+section.footer .fa-location-dot {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    left: 60px;
+}
+
+section.footer .fa-hubspot {
+    position: absolute;
+    font-size: 50px;
+    left: 150px;
+    padding: 10px 40px 0;
+    border-right: 3px solid #000;
+    border-left: 3px solid #000;
+    height: 75px;
+    color: #8B3A20;
+}
+
+section.footer .fa-people-group {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    right: 50px;
+}

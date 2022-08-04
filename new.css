@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8B3A20;
+    font-family: 'Roboto', sans-serif;
+    height: 736px;
+    width: 414px;
+}
+
+label.email {
+    position: absolute;
+    width: 161px;
+    height: 38px;
+    font-style: normal;
+    top: 180px;
+    left: 158px;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+
+}
+
+input {
+    border-radius: 10px;
+}
+
+input.input-email {
+    position: absolute;
+    top: 222px;
+    width: 271px;
+    left: 80px;
+    height: 46px;
+    background: #C4C4C4;
+    border: 0;
+
+}
+
+label.username {
+    position: absolute;
+    width: 114px;
+    height: 38px;
+    top: 275px;
+    left: 158px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+
+
+}
+
+input.input-username {
+    position: absolute;
+    top: 313px;
+    width: 271px;
+    left: 80px;
+    height: 46px;
+    background: #C4C4C4;
+    border: 0;
+
+}
+
+label.password {
+    position: absolute;
+    width: 111px;
+    height: 38px;
+    top: 369px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 38px;
+    left: 158px;
+    color: #000000;
+
+}
+
+input.input-password {
+    position: absolute;
+    top: 407px;
+    width: 271px;
+    left: 80px;
+    height: 46px;
+    background: #C4C4C4;
+    border: 0;
+
+}
+
+button {
+    position: absolute;
+    top: 490px;
+    left: 150px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #C4C4C4;
+}

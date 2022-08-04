@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-height: 736px;
+    max-width: 414px;
+}
+
+section.name {
+    background: #c4c4c4;
+    position: absolute;
+    height: 71px;
+    width: 100%;
+    top: 80px;
+}
+
+section.name h1 {
+    position: absolute;
+    padding-top: 20px;
+    left: 110px;
+}
+
+section.pin {
+    background: #c4c4c4;
+    position: absolute;
+    height: 71px;
+    width: 100%;
+    top: 242px;
+}
+
+section.pin h1 {
+    position: absolute;
+    padding-top: 20px;
+    left: 110px;
+}
+
+button {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 71px;
+    border: 0;
+    background: #c4c4c4;
+    font-size: 20px;
+    font-weight: bold;
+}
