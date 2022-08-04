@@ -11,3 +11,140 @@ body {
     max-height: 736px;
     max-width: 414px;
 }
+
+header {
+    position: absolute;
+    width: 414px;
+    height: 93px;
+    top: 0;
+    background: #c4c4c4;
+}
+
+.fa-solid {
+    color: #8B3A20;
+
+}
+
+header .fa-hubspot {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    left: 20px;
+    color: #8B3A20;
+
+}
+
+header img {
+    position: absolute;
+    left: 150px;
+}
+
+header .fa-bell {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    right: 20px;
+}
+
+section.banner-one {
+    position: absolute;
+    height: 51px;
+    width: 414px;
+    background-color: #c4c4c4;
+    top: 150px;
+}
+
+section.banner-one .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+section.banner-one span {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-weight: bold;
+}
+
+section.banner-one p {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section.banner-two {
+    position: absolute;
+    height: 51px;
+    width: 414px;
+    background-color: #c4c4c4;
+    top: 250px;
+}
+
+section.banner-two .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+section.banner-two span {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-weight: bold;
+}
+
+section.banner-two p {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+section.banner-three {
+    position: absolute;
+    height: 51px;
+    width: 414px;
+    background-color: #c4c4c4;
+    top: 350px;
+}
+
+section.banner-three .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+section.banner-three span {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-weight: bold;
+}
+
+section.banner-three p {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    height: 72px;
+    width: 414px;
+    bottom: 0;
+    background-color: #c4c4c4;
+}
+
+footer .fa-magnifying-glass {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left: 180px;
+}
