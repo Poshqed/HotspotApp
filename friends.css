@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-height: 736px;
+    max-width: 414px;
+}
+
+
+header {
+    position: absolute;
+    width: 414px;
+    height: 67px;
+    top: 0;
+    background: #c4c4c4;
+}
+
+.fa-solid {
+    color: #8B3A20;
+
+}
+
+header .fa-hubspot {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left: 20px;
+    color: #8B3A20;
+
+}
+
+header .fa-message {
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 200px;
+}
+
+header .fa-bell {
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
+}
+
+section.banner-one {
+    position: absolute;
+    height: 51px;
+    width: 414px;
+    background-color: #c4c4c4;
+    top: 150px;
+}
+
+section.banner-one .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+section.banner-one span {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-weight: bold;
+}
+
+section.banner-one p {
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section.banner-two {
+    position: absolute;
+    height: 51px;
+    width: 414px;
+    background-color: #c4c4c4;
+    top: 250px;
+}
+
+section.banner-two .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+section.banner-two span {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-weight: bold;
+}
+
+section.banner-two p {
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+section.banner-three {
+    position: absolute;
+    height: 51px;
+    width: 414px;
+    background-color: #c4c4c4;
+    top: 350px;
+}
+
+section.banner-three .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+section.banner-three span {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-weight: bold;
+}
+
+section.banner-three p {
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section.banner-four {
+    position: absolute;
+    height: 51px;
+    width: 414px;
+    background-color: #c4c4c4;
+    top: 450px;
+}
+
+section.banner-four .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+section.banner-four span {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-weight: bold;
+}
+
+section.banner-four p {
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    height: 73px;
+    width: 414px;
+    background-color: #c4c4c4;
+    bottom: 0;
+}
+
+footer .fa-magnifying-glass {
+    position: absolute;
+    font-size: 30px;
+    left: 50px;
+    border-right: 2px solid #000;
+    padding: 20px 100px 0 0;
+    height: 73px;
+}
+
+footer .fa-star.one {
+    position: absolute;
+    top: 12px;
+    right: 105px;
+}
+
+footer .fa-star.two {
+    position: absolute;
+    top: 12px;
+    right: 145px;
+    font-size: 20px;
+}
+
+footer .fa-star.three {
+    position: absolute;
+    top: 12px;
+    right: 65px;
+    font-size: 20px;
+}
